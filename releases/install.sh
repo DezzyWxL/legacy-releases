@@ -6,7 +6,7 @@
 set -euo pipefail
 
 VERSION="1.0.0"
-BASE_URL="${LEGACY_DOWNLOAD_URL:-https://your-host.com/releases}"
+BASE_URL="${LEGACY_DOWNLOAD_URL:-https://github.com/DezzyWxL/legacy-releases/releases/download/v${VERSION}}"
 CORE_PKG="legacy-core-${VERSION}.tgz"
 CLI_PKG="legacy-cli-${VERSION}.tgz"
 
